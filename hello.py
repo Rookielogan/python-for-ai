@@ -23,6 +23,11 @@ my_dog = Dog("Buddy")
 # Or with named argument
 my_dog2 = Dog(name="Max")
 
+my_cat = Cat("Tammy")
+print(my_cat.eat())
+print(my_cat.meow())
+print(my_cat.sleep())
+
 # Dog can do animal things (inherited)
 print(my_dog.eat())    # Buddy is eating
 print(my_dog.sleep())  # Buddy is sleeping
