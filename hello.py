@@ -13,6 +13,10 @@ class Animal:
 class Dog(Animal):
     def bark(self):
         return f"{self.name} says woof!"
+    
+class Cat(Animal):
+    def meow(self):
+        return f"{self.name} says meow!"
 
 # Create a dog - using positional argument
 my_dog = Dog("Buddy")
